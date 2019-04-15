@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+
+
+
+<form>
+  
+<div>abdominal pain  <input type="checkbox" ng-model="abdominalPain">
+</div>
+<div> 
+right upper	<input type="checkbox" ng-model="rightUpper">
+mid upper	<input type="checkbox" ng-model="midUpper">
+left upper	<input type="checkbox" ng-model="leftUpper">
+right middle 	<input type="checkbox" ng-model="rightMiddle">
+middle		<input type="checkbox" ng-model="middle">
+left middle	<input type="checkbox" ng-model="leftMiddle">
+right lower	<input type="checkbox" ng-model="rightLower">
+mid lower	<input type="checkbox" ng-model="midLower">
+left lower	<input type="checkbox" ng-model="leftLower">
+
+</div>
+<div>
+		<input type="checkbox" ng-model="nausea">nausea
+	<input type="checkbox" ng-model="vomiting">vomiting
+	<input type="checkbox" ng-model="diarhhea">diarhhea
+		<input type="checkbox" ng-model="fever">fever
+		<input type="checkbox" ng-model="chills">chills
+<input type="checkbox" ng-model="">last bowel movement
+<input type="checkbox" ng-model="">
+<input type="checkbox" ng-model="">
+</div>
+<div>
+Pain
+how long has the pain lasted?
+anything causes the pain to get better? worse?
+has anyone gotten food poisoning?
+family history
+medical problems - gerd, ulcers, ibs, ulcerative colitis
+medications
+allergies
+surgeries - adhesions
+
+</div>
+<div>
+<input type="checkbox" ng-model="">	smoke
+<input type="checkbox" ng-model="">	alcohol
+<input type="checkbox" ng-model="">	drugs
+
+</div>
+<div>
+<input type="checkbox" ng-model="pregnant">	pregnant
+</div>
+</form>
+
+<h1 ng-show="abdominalPain">Abdominal Pain</h1>
+
+
+</body>
+</html>
+
